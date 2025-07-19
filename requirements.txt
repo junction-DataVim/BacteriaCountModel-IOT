@@ -1,0 +1,14 @@
+# Bacteria Detection API Requirements
+# FastAPI and web server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Machine Learning and Computer Vision
+ultralytics==8.0.200
+opencv-python-headless==4.8.1.78
+numpy==1.24.3
+Pillow==10.1.0
+
+# Additional utilities
+requests>=2.25.0  # For testing
